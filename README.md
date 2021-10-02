@@ -47,36 +47,6 @@ You might come across a situation while developing an app where you’d want to 
 A pragmatic example would be a case of an IO Exception.
 
 Consider this use case. You want to fetch a list of dogs from the server, however, you get an IO exception due to a network issue.
-After getting an exception, you wait for a while and then retry. In case of an exception again , you might want to wait a little more than last time and then retry again.
-
-
-### Tech Stack
-
-- [Kotlin](https://kotlinlang.org/)  
-- [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)  
-- [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/)
-  
-  
-### Roadmap (Features to be added )
-- Exponential Backoff for Network Requests
-  
-  
-### Find this repository useful? :heart:
-Support it by starring this repository. :star: <br>
-And follow me on [Medium](https://medium.com/@shivamdhuria) and [Github](https://github.com/Shivamdhuria?tab=repositories)
-  
-  
-### Issues and Contribution
-Find any other use case scenario for Flows? Hit a PR!
-
-### Project Maintainers
-This project is founded and actively maintained by [Shivam Dhuria](https://github.com/Shivamdhuria).
-
-### Credits
-Got the idea from [Kaushik Gopal](https://github.com/kaushikgopal/RxJava-Android-Samples#16-simple-timeout-example-using-timeout)
-  
-### Libraries
-- [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - construct the REST APIs and paging network data.
-- [Gson](https://github.com/google/gson) - Gson is a Java library that can be used to convert Java Objects into their JSON representation.
-- [Room](https://developer.android.com/topic/libraries/architecture/room) - For storing Database.
+After getting an exception, you wait for a while and then retry. In case of an exception again , you might want to wait a little more than last time and then retry again
+ 
 
